@@ -9,11 +9,11 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-#    - name: nice-view-plus
-#      remote: arunsenau
-#      revision: main
-    - name: zmk-feature-caps
+    - name: nice-view-plus
       remote: arunsenau
       revision: main
+#    - name: zmk-feature-caps
+#      remote: arunsenau
+#      revision: main
   self:
     path: config
