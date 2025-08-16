@@ -9,13 +9,9 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-#    - name: zmk-fingerpunch-keyboards
-#      remote: sadekbaroudi
+#    - name: nice-view-plus
+#      remote: arunsenau
 #      revision: main
-#      import: config/deps.yml
-    - name: nice-view-plus
-      remote: arunsenau
-      revision: main
     - name: zmk-feature-caps
       remote: arunsenau
       revision: main
