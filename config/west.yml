@@ -15,5 +15,6 @@ manifest:
     - name: zmk-feature-caps
       remote: arunsenau
       revision: main
+      path: app/modules/zmk-feature-caps
   self:
     path: config
