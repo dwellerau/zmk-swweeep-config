@@ -4,17 +4,24 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: dwellerau
       url-base: https://github.com/dwellerau
+
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+
+    # Optional shield/add-on repo
     - name: nice-view-plus
       remote: dwellerau
       revision: main
+      path: nice-view-plus
+
+    # Your Caps indicator module (has module.yml at its root)
     - name: zmk-feature-caps
       remote: dwellerau
       revision: main
-#      path: app/modules/zmk-feature-caps
+      path: app/modules/zmk-feature-caps
+      
   self:
     path: config
