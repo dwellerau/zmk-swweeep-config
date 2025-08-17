@@ -12,9 +12,9 @@ manifest:
     - name: nice-view-plus
       remote: dwellerau
       revision: main
-    - name: zmk-caps-mod
+    - name: zmk-feature-caps
       remote: dwellerau
       revision: main
-      path: app/modules/zmk-caps-mod
+      path: app/modules/zmk-feature-caps
   self:
     path: config
