@@ -15,6 +15,6 @@ manifest:
     - name: zmk-feature-caps
       remote: dwellerau
       revision: main
-      path: app/modules/zmk-feature-caps
+#      path: app/modules/zmk-feature-caps
   self:
     path: config
