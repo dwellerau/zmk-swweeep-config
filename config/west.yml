@@ -3,17 +3,17 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: arunsenau
-      url-base: https://github.com/arunsenau
+      url-base: https://github.com/dwellerau
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: nice-view-plus
-      remote: arunsenau
+      remote: dwellerau
       revision: main
     - name: zmk-caps-mod
-      remote: arunsenau
+      remote: dwellerau
       revision: main
       path: app/modules/zmk-caps-mod
   self:
