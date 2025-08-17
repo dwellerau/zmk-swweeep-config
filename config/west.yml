@@ -12,9 +12,9 @@ manifest:
     - name: nice-view-plus
       remote: arunsenau
       revision: main
-    - name: zmk-feature-caps
+    - name: zmk-caps-mod
       remote: arunsenau
       revision: main
-      path: app/modules/zmk-feature-caps
+#      path: app/modules/zmk-caps-mod
   self:
     path: config
