@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: arunsenau                         #new entry
-      url-base: https://github.com/arunsenau  #new entry
+    - name: arunsenau
+      url-base: https://github.com/arunsenau
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -15,6 +15,6 @@ manifest:
     - name: zmk-caps-mod
       remote: arunsenau
       revision: main
-#      path: app/modules/zmk-caps-mod
+      path: app/modules/zmk-caps-mod
   self:
     path: config
